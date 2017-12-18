@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Viz</title>
+    <style>
+        html, body {
+            background: #c2c2c2;
+        }
+        .viz {
+            display: flex;
+            justify-content: space-between;
+        }
+        .viz > div {
+            background-color: white;
+            height: 40px;
+            min-width: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <audio src="./zomboy.mp3" controls="controls" ></audio>
+    <div class="viz">
+        <div class="bar"></div>
+    </div>
+</body>
+<script src="viz.js" type="text/javascript"></script>
+</html>
